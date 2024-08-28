@@ -1,0 +1,24 @@
+.dayItem {
+	height: 0.75rem;
+	width: 0.75rem;
+}
+
+.bgLightest {
+	background-color: var(--color-lightest);
+}
+
+.bgLighter {
+	background-color: var(--color-ligther);
+}
+
+.bgBase {
+	background-color: var(--color-base);
+}
+
+.bgDarker {
+	background-color: var(--color-darker);
+}
+
+.bgDarkest {
+	background-color: var(--color-darkest);
+}

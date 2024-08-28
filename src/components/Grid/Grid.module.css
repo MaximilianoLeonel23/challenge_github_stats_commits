@@ -1,0 +1,22 @@
+.grid {
+	display: flex;
+	align-items: end;
+	column-gap: 0.15rem;
+}
+
+.gridColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.monthNameContainer {
+	height: 1rem;
+	width: 0.75rem;
+	margin: 0.5rem 0;
+}
+
+.monthName {
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #303030;
+}
