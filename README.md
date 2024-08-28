@@ -1,8 +1,9 @@
-# React + Vite
+# Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React Github Stats Grid
 
-Currently, two official plugins are available:
+![Grid UI](./src/assets//1724758901703.jfif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+This is a coding challenge which consists of creating a grid of github commits activity for the current year (12 months) base on github api data. The grid must have a consistent UI and be coloured according to a dynamic scale; this scale would be calculated by taking the highest day activity as the darkest color, and it would be divided in four quartiles (darkest, darker, base and lighter). The lighest would be always zero.
